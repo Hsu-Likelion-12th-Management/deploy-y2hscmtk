@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.example.deploy.DeployApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-02-22T10:14:20" hostname="Choi76ui-MacBookPro.local" time="0.33">
+<testsuite name="com.example.deploy.DeployApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-02-22T10:23:37" hostname="Choi76ui-MacBookPro.local" time="0.279">
   <properties/>
-  <testcase name="contextLoads()" classname="com.example.deploy.DeployApplicationTests" time="0.33"/>
-  <system-out><![CDATA[19:14:19.331 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.example.deploy.DeployApplicationTests]: DeployApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
-19:14:19.363 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.example.deploy.DeployApplication for test class com.example.deploy.DeployApplicationTests
+  <testcase name="contextLoads()" classname="com.example.deploy.DeployApplicationTests" time="0.279"/>
+  <system-out><![CDATA[19:23:36.272 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.example.deploy.DeployApplicationTests]: DeployApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+19:23:36.305 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.example.deploy.DeployApplication for test class com.example.deploy.DeployApplicationTests
 
   .   ____          _            __ _ _
  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
@@ -13,22 +13,22 @@
  =========|_|==============|___/=/_/_/_/
  :: Spring Boot ::                (v3.2.2)
 
-2024-02-22T19:14:19.486+09:00  INFO 62266 --- [    Test worker] c.example.deploy.DeployApplicationTests  : Starting DeployApplicationTests using Java 19.0.2 with PID 62266 (started by choi76 in /Users/choi76/Desktop/LikeLion2024/deploy/deploy-y2hscmtk)
-2024-02-22T19:14:19.486+09:00  INFO 62266 --- [    Test worker] c.example.deploy.DeployApplicationTests  : No active profile set, falling back to 1 default profile: "default"
-2024-02-22T19:14:19.707+09:00  INFO 62266 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2024-02-22T19:14:19.715+09:00  INFO 62266 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 5 ms. Found 0 JPA repository interfaces.
-2024-02-22T19:14:19.863+09:00  INFO 62266 --- [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2024-02-22T19:14:19.878+09:00  INFO 62266 --- [    Test worker] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.1.Final
-2024-02-22T19:14:19.889+09:00  INFO 62266 --- [    Test worker] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2024-02-22T19:14:19.971+09:00  INFO 62266 --- [    Test worker] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2024-02-22T19:14:19.979+09:00  INFO 62266 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2024-02-22T19:14:20.185+09:00  INFO 62266 --- [    Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4bdb04c8
-2024-02-22T19:14:20.186+09:00  INFO 62266 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2024-02-22T19:14:20.218+09:00  WARN 62266 --- [    Test worker] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-2024-02-22T19:14:20.494+09:00  INFO 62266 --- [    Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2024-02-22T19:14:20.525+09:00  INFO 62266 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2024-02-22T19:14:20.579+09:00  WARN 62266 --- [    Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2024-02-22T19:14:20.729+09:00  INFO 62266 --- [    Test worker] c.example.deploy.DeployApplicationTests  : Started DeployApplicationTests in 1.321 seconds (process running for 1.71)
+2024-02-22T19:23:36.433+09:00  INFO 62705 --- [    Test worker] c.example.deploy.DeployApplicationTests  : Starting DeployApplicationTests using Java 19.0.2 with PID 62705 (started by choi76 in /Users/choi76/Desktop/LikeLion2024/deploy/deploy-y2hscmtk)
+2024-02-22T19:23:36.434+09:00  INFO 62705 --- [    Test worker] c.example.deploy.DeployApplicationTests  : No active profile set, falling back to 1 default profile: "default"
+2024-02-22T19:23:36.647+09:00  INFO 62705 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-02-22T19:23:36.654+09:00  INFO 62705 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 4 ms. Found 0 JPA repository interfaces.
+2024-02-22T19:23:36.809+09:00  INFO 62705 --- [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-02-22T19:23:36.824+09:00  INFO 62705 --- [    Test worker] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.1.Final
+2024-02-22T19:23:36.834+09:00  INFO 62705 --- [    Test worker] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-02-22T19:23:36.914+09:00  INFO 62705 --- [    Test worker] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-02-22T19:23:36.922+09:00  INFO 62705 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-02-22T19:23:37.136+09:00  INFO 62705 --- [    Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6e517c9e
+2024-02-22T19:23:37.137+09:00  INFO 62705 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-02-22T19:23:37.171+09:00  WARN 62705 --- [    Test worker] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-02-22T19:23:37.447+09:00  INFO 62705 --- [    Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-02-22T19:23:37.477+09:00  INFO 62705 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-02-22T19:23:37.535+09:00  WARN 62705 --- [    Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-02-22T19:23:37.687+09:00  INFO 62705 --- [    Test worker] c.example.deploy.DeployApplicationTests  : Started DeployApplicationTests in 1.332 seconds (process running for 1.727)
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
